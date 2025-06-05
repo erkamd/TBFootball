@@ -4,14 +4,6 @@ This repository contains a small Unity project targeting **Unity 2022.3.54f1**. 
 
 ## Project Structure
 
-```
-Assets/
-  Scenes/            - The included Main scene
-  Prefabs/           - Prefabs for agents, ball and managers
-  Sprites/           - Create your own placeholder sprites (not included)
-  Scripts/           - Gameplay scripts
-```
-
 Clone or download this repository and open the folder directly in **Unity Hub** (version `2022.3.54f1`). The `ProjectSettings` and `Packages` folders are provided so you can open it without creating a new project.
 
 ## Gameplay Overview

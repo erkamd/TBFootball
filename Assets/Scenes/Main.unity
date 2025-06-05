@@ -28,14 +28,6 @@ Transform:
 MonoBehaviour:
   m_GameObject: {fileID: 5}
   m_Script: {fileID: 11500000, guid: a30ac1e7-522c-4b29-8039-67a57cfe4a19, type: 3}
-  teamA:
-  - {fileID: 22}
-  - {fileID: 26}
-  - {fileID: 30}
-  teamB:
-  - {fileID: 34}
-  - {fileID: 38}
-  - {fileID: 42}
 --- !u!1 &6
 GameObject:
   m_Name: Ball
