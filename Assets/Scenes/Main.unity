@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1
+GameObject:
+  m_Name: GameManager
+  m_Component:
+  - component: {fileID: 4}
+  - component: {fileID: 2}
+--- !u!4 &4
+Transform:
+  m_GameObject: {fileID: 1}
+--- !u!114 &2
+MonoBehaviour:
+  m_GameObject: {fileID: 1}
+  m_Script: {fileID: 11500000, guid: ebac0f13-bd1c-4211-bcc5-336d4060f26b, type: 3}
+  turnManager: {fileID: 11}
+  ball: {fileID: 7}
+--- !u!1 &5
+GameObject:
+  m_Name: TurnManager
+  m_Component:
+  - component: {fileID: 9}
+  - component: {fileID: 11}
+--- !u!4 &9
+Transform:
+  m_GameObject: {fileID: 5}
+--- !u!114 &11
+MonoBehaviour:
+  m_GameObject: {fileID: 5}
+  m_Script: {fileID: 11500000, guid: a30ac1e7-522c-4b29-8039-67a57cfe4a19, type: 3}
+  teamA:
+  - {fileID: 22}
+  - {fileID: 26}
+  - {fileID: 30}
+  teamB:
+  - {fileID: 34}
+  - {fileID: 38}
+  - {fileID: 42}
+--- !u!1 &6
+GameObject:
+  m_Name: Ball
+  m_Component:
+  - component: {fileID: 10}
+  - component: {fileID: 7}
+  - component: {fileID: 8}
+--- !u!4 &10
+Transform:
+  m_GameObject: {fileID: 6}
+--- !u!114 &7
+MonoBehaviour:
+  m_GameObject: {fileID: 6}
+  m_Script: {fileID: 11500000, guid: eed3f351-cad0-441b-a04e-3fdb67ab4746, type: 3}
+--- !u!212 &8
+SpriteRenderer:
+  m_GameObject: {fileID: 6}
+  m_Sprite: {fileID: 0}
+--- !u!1 &20
+GameObject:
+  m_Name: AgentA1
+  m_Component:
+  - component: {fileID: 21}
+  - component: {fileID: 22}
+  - component: {fileID: 23}
+--- !u!4 &21
+Transform:
+  m_GameObject: {fileID: 20}
+--- !u!114 &22
+MonoBehaviour:
+  m_GameObject: {fileID: 20}
+  m_Script: {fileID: 11500000, guid: cb450d86-d17e-412c-b38d-3687dae114a2, type: 3}
+--- !u!212 &23
+SpriteRenderer:
+  m_GameObject: {fileID: 20}
+  m_Sprite: {fileID: 0}
+--- !u!1 &24
+GameObject:
+  m_Name: AgentA2
+  m_Component:
+  - component: {fileID: 25}
+  - component: {fileID: 26}
+  - component: {fileID: 27}
+--- !u!4 &25
+Transform:
+  m_GameObject: {fileID: 24}
+--- !u!114 &26
+MonoBehaviour:
+  m_GameObject: {fileID: 24}
+  m_Script: {fileID: 11500000, guid: cb450d86-d17e-412c-b38d-3687dae114a2, type: 3}
+--- !u!212 &27
+SpriteRenderer:
+  m_GameObject: {fileID: 24}
+  m_Sprite: {fileID: 0}
+--- !u!1 &28
+GameObject:
+  m_Name: AgentA3
+  m_Component:
+  - component: {fileID: 29}
+  - component: {fileID: 30}
+  - component: {fileID: 31}
+--- !u!4 &29
+Transform:
+  m_GameObject: {fileID: 28}
+--- !u!114 &30
+MonoBehaviour:
+  m_GameObject: {fileID: 28}
+  m_Script: {fileID: 11500000, guid: cb450d86-d17e-412c-b38d-3687dae114a2, type: 3}
+--- !u!212 &31
+SpriteRenderer:
+  m_GameObject: {fileID: 28}
+  m_Sprite: {fileID: 0}
+--- !u!1 &32
+GameObject:
+  m_Name: AgentB1
+  m_Component:
+  - component: {fileID: 33}
+  - component: {fileID: 34}
+  - component: {fileID: 35}
+--- !u!4 &33
+Transform:
+  m_GameObject: {fileID: 32}
+--- !u!114 &34
+MonoBehaviour:
+  m_GameObject: {fileID: 32}
+  m_Script: {fileID: 11500000, guid: cb450d86-d17e-412c-b38d-3687dae114a2, type: 3}
+--- !u!212 &35
+SpriteRenderer:
+  m_GameObject: {fileID: 32}
+  m_Sprite: {fileID: 0}
+--- !u!1 &36
+GameObject:
+  m_Name: AgentB2
+  m_Component:
+  - component: {fileID: 37}
+  - component: {fileID: 38}
+  - component: {fileID: 39}
+--- !u!4 &37
+Transform:
+  m_GameObject: {fileID: 36}
+--- !u!114 &38
+MonoBehaviour:
+  m_GameObject: {fileID: 36}
+  m_Script: {fileID: 11500000, guid: cb450d86-d17e-412c-b38d-3687dae114a2, type: 3}
+--- !u!212 &39
+SpriteRenderer:
+  m_GameObject: {fileID: 36}
+  m_Sprite: {fileID: 0}
+--- !u!1 &40
+GameObject:
+  m_Name: AgentB3
+  m_Component:
+  - component: {fileID: 41}
+  - component: {fileID: 42}
+  - component: {fileID: 43}
+--- !u!4 &41
+Transform:
+  m_GameObject: {fileID: 40}
+--- !u!114 &42
+MonoBehaviour:
+  m_GameObject: {fileID: 40}
+  m_Script: {fileID: 11500000, guid: cb450d86-d17e-412c-b38d-3687dae114a2, type: 3}
+--- !u!212 &43
+SpriteRenderer:
+  m_GameObject: {fileID: 40}
+  m_Sprite: {fileID: 0}
