@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1
+GameObject:
+  m_Name: TurnManager
+  m_Component:
+  - component: {fileID: 4}
+  - component: {fileID: 2}
+--- !u!4 &4
+Transform:
+  m_GameObject: {fileID: 1}
+--- !u!114 &2
+MonoBehaviour:
+  m_GameObject: {fileID: 1}
+  m_Script: {fileID: 11500000, guid: a30ac1e7-522c-4b29-8039-67a57cfe4a19, type: 3}
+  teamA: []
+  teamB: []
